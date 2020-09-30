@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpeg) center ;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+.title{
+ text-align:center;
+ font-size: 70px;
+ font-weight: bold ;
+ margin-top: 10px;
+}
+
+#table{
+   margin: auto;
+   margin-top:130px;
+   border: 5px solid greenyellow;
+   padding: 15px;
+   padding-bottom: 45px;
+      border-radius: 10px;
+}
+
+.number{
+    width:200px;
+    border:2px solid transparent;
+    text-align: center;
+    border-radius: 10px;
+    font-size:16px;
+    font-weight:200px;
+    padding: 10px 5px;
+    transition: border 0.5s;
+    background:grey;
+    margin:5px;
+    caret-color:greenyellow;
+}
+
+.btn{
+    border: 2px solid black;
+    background:white;
+    color:black;
+    font-size:16px;
+    border-radius: 5px;
+    cursor:pointer;
+    width:80px;
+    height:40px;
+    text-align: center;
+}
+.btn:hover{
+    border: 2px solid black;
+    background:black;
+    color:white;
+    font-size:16px;
+    border-radius: 5px;
+    cursor:pointer;
+    width:80px;
+    height:40px;
+    text-align: center;
+}
+
+.end{
+    text-align: center;
+    font-size: 25px;
+
+}
+.reset {
+    border: 2px solid black;
+    background:white;
+    color:black;
+    font-size:13px;
+    border-radius: 5px;
+    cursor:pointer;
+    width:80px;
+    height:40px;
+    text-align: center;
+    margin:10px;
+
+}
+.reset:hover{
+    border: 2px solid black;
+    background:black;
+    color:white;
+    font-size:13px;
+    border-radius: 5px;
+    cursor:pointer;
+    width:80px;
+    height:40px;
+    text-align: center;
+    margin:10px;
+}
+
+label{
+    font-size:25px;
+}
