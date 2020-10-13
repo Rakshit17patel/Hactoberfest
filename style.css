@@ -96,3 +96,8 @@ body{
 label{
     font-size:25px;
 }
+#grad1{
+    height:300px;
+    background-color:skyblue;
+    background-image:linear-gradient(skyblue,pink);
+}
