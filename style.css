@@ -19,7 +19,7 @@ body{
 #table{
    margin: auto;
    margin-top:130px;
-   border: 5px solid greenyellow;
+   border: 5px solid rgb(47, 61, 255);
    padding: 15px;
    padding-bottom: 45px;
       border-radius: 10px;
@@ -34,14 +34,14 @@ body{
     font-weight:200px;
     padding: 10px 5px;
     transition: border 0.5s;
-    background:grey;
-    margin:5px;
+    background:rgb(230, 230, 230);
+    margin: 5px;
     caret-color:greenyellow;
 }
 
 .btn{
     border: 2px solid black;
-    background:white;
+    background: rgba(30, 90, 255, 0.733);
     color:black;
     font-size:16px;
     border-radius: 5px;
@@ -69,7 +69,7 @@ body{
 }
 .reset {
     border: 2px solid black;
-    background:white;
+    background: rgba(30, 90, 255, 0.733);
     color:black;
     font-size:13px;
     border-radius: 5px;
