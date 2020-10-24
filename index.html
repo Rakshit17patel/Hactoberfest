@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--this file is edited by parth langalia 
-    and the pupose is to get a free tshirt...a-->
+<!--this file is edited by ayush and added new UI-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,85 @@
 
 <body>
     <div class="title"><h1>Weight Translator</h1></hr></div>
+    <form><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight-Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Weight Translator</h1>
+        </hr>
+    </div>
     <form>
+        <table id="table">
+            <tr>
+                <td><label>Weight In KG:</label></td>
+                <td> <input class="number" type="number" name="kg" id="in_kg"></td>
+                <td><input type="button" id="s-btn" value="Convert" name="convert" onclick="check()"></td>
+            </tr>
+            <tr>
+                <td><label> Grams:</label></td>
+                <td> <input type="number" class="number" name="gram" id="in_g"></td>
+            </tr>
+            <tr>
+                <td><label>Pounds:</label></td>
+                <td> <input type="number" class="number" name="p" id="in_p"></td>
+            </tr>
+            <tr>
+                <td><label> Miligram:</label></td>
+                <td> <input type="number" class="number" name="mg" id="in_mg"></td>
+            </tr>
+            <tr>
+                <td><label> US Ton:</label></td>
+                <td> <input type="number" class="number" name="ut" id="in_t"></td>
+            </tr>
+            <tr>
+                <td><label>Ounces:</label></td>
+                <td> <input type="number" class="number" name="o" id="in_o"></td>
+            </tr>
+        </table>
+        <div class="end">
+            <input class="reset" type="reset" value="Reset" name="reset">
+            <p>
+            <h4>Note: Press RESET for another conversion.</h4>
+            </p>
+        </div>
+    </form>
+    <script>
+        function check() {
+            var x;
+            x = document.getElementById('in_kg').value;
+            if (isNaN(x) || x <= 0) {
+                window.alert("Enter number greater than zero");
+            }
+            else {
+                var num;
+                num = x * 1000;
+                document.getElementById('in_g').value = num;
+                num = x * 2.2046;
+                document.getElementById('in_p').value = num;
+                num = x * 1000000;
+                document.getElementById('in_mg').value = num;
+                num = x * 0.0011023;
+                document.getElementById('in_t').value = num;
+                num = x * 35.274;
+                document.getElementById('in_o').value = num;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
         <table id="table">
             <tr>
                 <td><label>Weight In KG:</label></td>
